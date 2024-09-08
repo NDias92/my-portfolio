@@ -1,14 +1,17 @@
 import React from "react";
-import { Button, Container } from "react-bootstrap";
+//import { Button, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>João Silva</h1>
-        <p>Desenvolvedor Full Stack</p>
+        <FontAwesomeIcon icon={faInstagram} />
+        <h1 class="na">Nádia Dias</h1>
+        <p>Front-end Developer</p>
       </header>
       <section>
         <h2>Experiência</h2>
